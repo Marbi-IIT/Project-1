@@ -2,6 +2,11 @@ body {
     background-color: #0af548;
 }
 
+@font-face {
+    font-family: 'Lato';
+    src: url('https://fonts.google.com/specimen/Lato?sort=popularity');
+}
+
 .container {
     width: 700px;
     height: 600px;
@@ -9,15 +14,28 @@ body {
     margin: auto;
     position: absolute;
     left: 35%;
-    top: 20%;
+    top: 15%;
 }
 
 div.child {
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: auto;
     outline: black;
     position: relative;
     left: 10%;
-    top: 10%;
-    font-size: 15px;
+    top: 13%;
+    font-size: 18px;
+}
+
+div.child p {
+    outline-style: solid;
+}
+
+.child img {
+    outline-style: solid;
+    width: auto;
+    height: 200px;
+    position: fixed;
+    left: 60%;
+    bottom: 56.5%;
 }

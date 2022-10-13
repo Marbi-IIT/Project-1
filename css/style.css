@@ -3,11 +3,21 @@ body {
 }
 
 .container {
-    width: 600px;
+    width: 700px;
     height: 600px;
     background-color: #f0ffff;
     margin: auto;
     position: absolute;
     left: 35%;
     top: 20%;
+}
+
+div.child {
+    width: 200px;
+    height: 100px;
+    outline: black;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    font-size: 15px;
 }

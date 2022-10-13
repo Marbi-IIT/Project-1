@@ -2,11 +2,6 @@ body {
     background-color: #0af548;
 }
 
-@font-face {
-    font-family: 'Lato';
-    src: url('https://fonts.google.com/specimen/Lato?sort=popularity');
-}
-
 .container {
     width: 700px;
     height: 600px;
@@ -24,11 +19,10 @@ div.child {
     position: relative;
     left: 10%;
     top: 13%;
-    font-size: 18px;
-}
-
-div.child p {
+    font-size: 16px;
     outline-style: solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
 }
 
 .child img {

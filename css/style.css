@@ -14,7 +14,7 @@ body {
 
 div.child {
     width: 250px;
-    height: auto;
+    height: 140px;
     outline: black;
     position: relative;
     left: 10%;
@@ -25,11 +25,11 @@ div.child {
     text-align: left;
 }
 
-.child img {
+div.solarpanel_roof img {
     outline-style: solid;
     width: auto;
     height: 200px;
-    position: fixed;
-    left: 60%;
-    bottom: 56.5%;
+    position: relative;
+    left: 118%;
+    top: -165px;
 }

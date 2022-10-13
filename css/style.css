@@ -113,6 +113,27 @@ p.sign-up {
         outline-style: solid;
     }
 
+    div.solarpanel_roof img {
+        scale: 60%;
+        position: relative;
+        left: 190px;
+    }
+
+    div.business_model img {
+        scale: 70%;
+        position: relative; 
+        right: 36px;
+        top: -300px;
+    }
+
+    div.business_model p {
+        position: relative; 
+        left: 240px;
+        width: 200px;
+        height: auto;
+        font-size: 12px;
+        outline-style: solid; 
+    }
 
 
 

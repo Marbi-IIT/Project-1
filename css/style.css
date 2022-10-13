@@ -93,9 +93,9 @@ p.sign-up {
 @media only screen and (max-width: 600px) {
     .container {
         width: 500px;
-        height: 600px;
+        height: 450px;
         position: relative;
-        left: 3%;
+        left: .5%;
     }
     
     div.solar_renewable {
@@ -128,13 +128,12 @@ p.sign-up {
 
     div.business_model p {
         position: relative; 
-        left: 240px;
+        left: 235px;
+        bottom: 135px;
         width: 200px;
         height: auto;
-        font-size: 12px;
+        font-size: 11px;
         outline-style: solid; 
     }
-
-
 
 }

@@ -12,7 +12,7 @@ body {
     top: 15%;
 }
 
-div.child {
+div.solar_renewable {
     width: 250px;
     height: 140px;
     outline: black;
@@ -32,4 +32,15 @@ div.solarpanel_roof img {
     position: relative;
     left: 118%;
     top: -165px;
+}
+
+div.business_model p {
+    width: 300px;
+    height: auto;
+    outline-style: solid;
+    font-family:'Courier New', Courier, monospace
+    text-align: left;
+    position: relative;
+    bottom: 150px;
+    left: 118%;
 }

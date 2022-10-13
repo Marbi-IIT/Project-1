@@ -9,7 +9,7 @@ h1 {
     font-family: 'Lato';
     text-align: center;
     font-style: italic;
-    text-shadow: 3px 3px 2px #009933;
+    text-shadow: 3px 3px .5px #009933;
 
 }
 
@@ -88,4 +88,32 @@ p.sign-up {
 
 .form input {
     margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 500px;
+        height: 600px;
+        position: relative;
+        left: 3%;
+    }
+    
+    div.solar_renewable {
+        outline-style: none;
+    }
+    
+    div.business_model p {
+        outline-style: none;
+    }
+
+    .solar_renewable p {
+        font-size: 14px;
+        width: 225px;
+        height: auto;
+        outline-style: solid;
+    }
+
+
+
+
 }

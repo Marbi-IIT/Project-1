@@ -113,13 +113,13 @@ p.sign-up {
     }
 
     div.solarpanel_roof img {
-        scale: 60%;
+        transform: scale(.6);
         position: relative;
         left: 190px;
     }
 
     div.business_model img {
-        scale: 70%;
+        transform: scale(.7);
         position: relative; 
         right: 36px;
         top: -300px;

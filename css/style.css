@@ -3,7 +3,11 @@ body {
 }
 
 .container {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     background-color: #f0ffff;
+    margin: auto;
+    position: absolute;
+    left: 35%;
+    top: 20%;
 }

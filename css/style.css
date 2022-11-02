@@ -25,15 +25,21 @@ h1 {
 
 div.solar_renewable {
     width: 250px;
-    height: 130px;
-    outline: black;
+    height: 150px;
     position: relative;
     left: 10%;
-    top: 13%;
+    top: 8%;
+}
+
+div.solar_renewable p {
     font-size: 16px;
     outline-style: solid;
     font-family: 'Lato', 'Open Sans', 'Roboto';
     text-align: center;
+    line-height: 150%;
+    outline-style: solid;
+    position:relative;
+    top: 30px;
 }
 
 div.solarpanel_roof img {
@@ -54,8 +60,9 @@ div.business_model p {
     font-family: 'Lato', 'Open Sans', 'Roboto';
     text-align: center;
     position: relative;
-    bottom: 110px;
     left: 121%;
+    top: -105px;
+    line-height: 150%;
 }
 
 div.business_model img {
@@ -64,7 +71,7 @@ div.business_model img {
     height: 200px;
     position: relative;
     right: 10%;
-    top: -300px;
+    top: -320px;
     box-shadow: 0 5px 25px 0
                 rgba(0,0,0, 0.5);
 }

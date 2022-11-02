@@ -22,10 +22,10 @@
             <div class="sign-up">
                 <p>If you would like to know more please enter in your personal information below!</p>
             </div>
-            <form class="form" id="form1" method="get" action="#null" autocomplete="on">
+            <form class="form" method="get" name="form1" action="#null" autocomplete="on" onsubmit="return checkempty()">
                 <div>
                     <label for="name">Enter your Full Name</label>
-                    <input id="fullname" name="name" type="text" placeholder="Name">
+                    <input id="fullname" name="fullname" type="text" placeholder="Name">
                 </div>
                 <div>
                     <label for="phone">Enter Phone Number</label>

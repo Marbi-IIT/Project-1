@@ -36,7 +36,8 @@ div.solar_renewable p {
     outline-style: solid;
     font-family: 'Lato', 'Open Sans', 'Roboto';
     text-align: center;
-    line-height: 150%;
+    /* I converted the font size with the golden ration and found the line height to be 27*/
+    line-height: 27px;
     outline-style: solid;
     position:relative;
     top: 30px;
@@ -62,7 +63,8 @@ div.business_model p {
     position: relative;
     left: 121%;
     top: -105px;
-    line-height: 150%;
+    /* I converted the font size with the golden ration and found the line height to be 27*/
+    line-height: 24px;
 }
 
 div.business_model img {
@@ -76,15 +78,16 @@ div.business_model img {
                 rgba(0,0,0, 0.5);
 }
 
-p.sign-up {
+div.sign-up p {
     width: auto;
     height: auto;
     font-weight: bold;
     font-family: 'Lato', 'Open Sans', 'Roboto';
     text-align: center;
-    position: relative;
-    bottom: 200px;
-    left: 70%;
+    top: -250px;
+    left: 170px;
+    /* I converted the font size with the golden ration and found the line height to be 27*/
+    line-height: 27px;    
 }
 
 .form {
@@ -93,12 +96,19 @@ p.sign-up {
     border: solid #9b88af;
     padding: 32px;
     position: relative;
-    bottom: 200px;
+    bottom: 250px;
     left: 170px;
+    text-align: center;
 }
 
 .form input {
     margin: 5px;
+}
+
+.form [type=submit] {
+    margin-top: 20px;
+    font-size: 15px;
+    width: 150px;
 }
 
 @media only screen and (max-width: 600px) {

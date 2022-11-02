@@ -206,9 +206,9 @@ button:active {
         margin-top: -50px;
     }
 
-    #sign-up {
-        position: relative ;
-        bottom: 265px;
-        right: -170px;
+    div.sign-up {
+        position: relative;
+        bottom: -15px;
+        right: 0px;
     }
 }

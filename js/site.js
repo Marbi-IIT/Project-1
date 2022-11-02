@@ -1,20 +1,9 @@
-const name = docment.getElementByID('name')
-const phonenumber = document.getElementById('phone')
-const form = document.getElementById('email')
-const errrorEleemnt = document.getElementById('error')
+const form1 = document.getElementById('form1')
+const name = document.getElementById('name')
+const phone = document.getElementById('phone')
 
-form.addEventListener('submit', (e) => {
-    let messages = []
-    if (Text.value === '' || Text.value == null) {
-        messages.push('Name is required')
-    }
+form1.addEventListener('submit', (e) => {
+    e.preventDefault();
 
-    if (phonenumber.value.lenght <= 10) {
-        messages.push('Phone number must be (---,---,----)')
-    }
-
-    if (messages.length > 0) {
-        e.preventDefault()
-        error.Element.innerText = messages.join(', ')
-    }
-})
+    checkInputs();
+});

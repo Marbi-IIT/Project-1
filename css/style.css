@@ -103,6 +103,7 @@ div.sign-up p {
 
 .form input {
     margin: 5px;
+    margin-bottom: 10px;
 }
 
 .form [type=submit] {
@@ -162,35 +163,36 @@ button:active {
         transform: scale(1.1);
         position: relative; 
         right: -50px;
-        top: -100px;
+        top: -120px;
     }
 
     div.business_model p {
         display: flex;
-        left: -20px;
-        top: 245px;
-        width: 450px;
+        left: -35px;
+        top: 240px;
+        width: 470px;
         height: auto;
         font-size: 13px;
-        line-height: 25px;
+        line-height: 28px;
         outline-style: solid; 
     }
 
     div.sign-up p {
         position: relative;
-        top: 50px;
-        left: 80px;
+        top: 40px;
+        left: 50px;
         font-size: 14px;
-        height: auto;
-        width: auto;
+        height: 70px;
+        width: 300px;
         font-size: 13px;
     }
 
     .solar_renewable form {
         position: relative;
         left: 78px;
-        bottom: -80px;
-        height: 130px;
+        bottom: -60px;
+        height: auto;
+        padding: 20px;
     }
 
 }
